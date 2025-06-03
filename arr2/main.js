@@ -1,17 +1,8 @@
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let timKiem = parseInt(prompt("Mời bạn nhập số cần tìm:"));
-
-let found = false;
-
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] === timKiem) {
-    found = true;
-    break;
-  }
+let arr = [1, 2, 3, 4, 5, 6];
+let test = parseInt(prompt("moi ban nhap so "));
+if(arr.includes(test)){
+    alert`Bingo`
+}else{
+    alert`Chuc ban may man lan sau`
 }
 
-if (found) {
-  alert("Bingo");
-} else {
-  alert("Chúc bạn may mắn lần sau");
-}
