@@ -1,12 +1,8 @@
-// let numbers = [];
-// for(let i = 1; i <= 10; i++){
-//   numbers.push(Math.floor(Math.random()*100));
-// }
-// document.write(numbers);
-const numbers = [];
-
+let arr = [];
 for (let i = 0; i < 10; i++) {
-  numbers.push(Math.floor(Math.random() * 100));
+    let soNgauNhien = Math.floor(Math.random() * 100); 
+    arr.push(soNgauNhien);
+    console.log(soNgauNhien);
+    
 }
 
-console.log(numbers);
